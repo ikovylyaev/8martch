@@ -39,11 +39,11 @@ div.first_step button {
 	width: 100%;
 	border: 0px solid #fff;
 	border-radius: 20px;
-	padding: 60px;
+	padding: 10px;
 	box-sizing: border-box;
 	background-image: #eee;
 	font-size: 28px;
-	color: #fff;
+	color: #151515;
 }
 
 div.round {
