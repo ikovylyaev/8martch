@@ -17,7 +17,7 @@ html{
 }
 
 div.first_step {
-	width: 620px;
+	width: 560px;
 	margin: 0 auto;
 	margin-top: 150px;
 	text-align: center;
@@ -41,7 +41,7 @@ div.first_step button {
 	border-radius: 20px;
 	padding: 10px;
 	box-sizing: border-box;
-	background-image: #eee;
+	background: #eee;
 	font-size: 28px;
 	color: #151515;
 }
@@ -67,6 +67,7 @@ div.team {
 	text-align: center;
 	border: 0px solid blue;
 	width: calc(50vw - 1px);
+	position: relative;
 }
 
 div.team div {
@@ -121,12 +122,30 @@ div.team div {
 }
 div.yes {
 	float: right;
-	color: green;
+	cursor: pointer;
+    height: 40px;
+    background: url(check.svg);
+    width: 40px;
+    background-size: cover;
+    color: rgba(0,0,0,0)!important;
+    padding: 0px!important;
+    margin: 10px 20px;
+    position: absolute;
+    right: 0px;
 }
 
 div.no {
 	float: right;
-	color: red;
+	cursor: pointer;
+    height: 40px;
+    background: url(x.svg);
+    width: 40px;
+    background-size: cover;
+    color: rgba(0,0,0,0)!important;
+    padding: 0px!important;
+    margin: 10px 20px;
+    position: absolute;
+    right: 60px;
 }
 
 div.team .name {
