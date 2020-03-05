@@ -139,7 +139,7 @@ function start_game() {
     document.getElementById("div_round").style.display = "block";
     var a = document.getElementById("text_first_step").value;
     eval(a);
-    for (var a = "<table id='div_round_table' class='div_round_div_table'>", b = 0; 4 > b; b++) {
+    for (var a = "<table id='div_round_table' class='div_round_div_table'>", b = 0; 5 > b; b++) {
         for (var a = a + "<tr><td class='theme'></td>", c = 0; 5 > c; c++) a += "<td class='point' onclick='print_question(" + b + "," + c + ");'></td>";
         a += "</tr>"
     }
