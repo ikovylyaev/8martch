@@ -17,14 +17,14 @@ html{
 }
 
 div.first_step {
-	width: 560px;
+	width: 500px;
 	margin: 0 auto;
 	margin-top: 150px;
 	text-align: center;
 }
 
 div.first_step img {
-	width: 600px;
+	width: 100%;
 }
 
 div.first_step input {
