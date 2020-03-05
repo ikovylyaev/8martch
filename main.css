@@ -213,8 +213,8 @@ span.start_header {
 	padding: 0 30px;
 }
 
-table.div_round_div_table {
-	background-color: rgba(255,255,255,0);
+table.div_round_div_table tr{
+	background-color: rgba(255,255,255,0.00001);
 	transition: 0.5s;
 }
 
